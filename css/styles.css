@@ -1,6 +1,11 @@
 
+@import "/css/reset.css";
 @import "/css/variables.css";
-.status-bar{display: flex;justify-content: space-between;}
+@import "/css/friends.css";
+@import "/css/nav-nar.css";
+@import "/css/screen-header.css";
+@import "/css/user-component.css";
+.status-bar{display: flex;justify-content: space-between;position: fixed;top: 0;box-sizing: border-box;width: 100%;}
 .status__column{width: 33%;}
 .status__column:first-child span{margin-right: 5px;}
 .status__column:nth-child(2){
@@ -55,4 +60,5 @@ transition: border-color 0.3s ease-in-out;}
     color: inherit;
     font-size: 13px;
 }
+
 
